@@ -41,7 +41,7 @@ p {
 p {
   margin: 0;
   line-height: 1.8;
-  color: #666;
+  color: #000;
 }
 
 a {
@@ -84,8 +84,9 @@ header {
 
 .logo {
   color: #000;
-  font-family: cursive;
+  font-family: 'Merienda One', cursive;
   font-size: 2.5rem;
+  //font-weight: bold;
   
 }
 
@@ -231,7 +232,8 @@ section {
 .project_header,
 .skills_header,
 .contact_header {
-  font-family: cursive;
+  font-family: 'Merienda One', cursive;
+  //font-weight: bold;
   letter-spacing: 0.5em;
   padding: 20px 10px;
   text-align: center;
@@ -260,13 +262,17 @@ section {
 #intro {
   color: #fff;
   margin: 0.5rem;
-  padding: 1rem;
+  //padding: 1rem;
   
 }
 
 .introduction {
   font-size: 6rem;
   
+}
+
+.intro-pitch {
+  font-size: 2rem; 
 }
 
 .hero {
