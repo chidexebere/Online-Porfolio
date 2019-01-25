@@ -1,247 +1,383 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Chidiebere Onyegbuchulem</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merienda+One|PT+Sans"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+      integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Chidiebere Onyegbuchulem</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Merienda+One|PT+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <body id="body">
+    <header role="banner">
+      <div class="head_logo">
+        <a href="#body"> <h1 class="logo">Chidiebere Onyegbuchulem</h1> </a>
+      </div>
 
-</head>
-
-<body id="body">
-  <header role="banner">
-
-    <div class="head_logo">
-      <a href="#body">
-        <h1 class="logo">Chidiebere Onyegbuchulem </h1>
-      </a>
-    </div>
-
-    <div class="desktop_nav">
-      <ul class="desktop_navigation">
-        <li><a href="#aboutMe">About Me</a></li>
-        <li><a href="#projects">My Work</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact Me</a></li>
-      </ul>
-    </div>
-
-
-    <div class="mobile_nav">
-      <input id="burger" type="checkbox" />
-      <label for="burger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-
-      <nav>
-        <ul id="mobile_navigation">
-          <li><a class="nav-link" href="#aboutMe">About Me</a></li>
-          <li><a class="nav-link" href="#projects">My Work</a></li>
-          <li><a class="nav-link" href="#skills">Skills</a></li>
-          <li><a class="nav-link" href="#contact">Contact Me</a></li>
+      <div class="desktop_nav">
+        <ul class="desktop_navigation">
+          <li><a href="#aboutMe">About Me</a></li>
+          <li><a href="#projects">My Work</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact Me</a></li>
         </ul>
-      </nav>
+      </div>
+
+      <div class="mobile_nav">
+        <input id="burger" type="checkbox" />
+        <label for="burger"> <span></span> <span></span> <span></span> </label>
+
+        <nav>
+          <ul id="mobile_navigation">
+            <li><a class="nav-link" href="#aboutMe">About Me</a></li>
+            <li><a class="nav-link" href="#projects">My Work</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+            <li><a class="nav-link" href="#contact">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+      <main>
+        <section id="aboutMe" role="region" aria-labelledby="Intro">
+          <div class="about" tabindex="0">
+            <div id="intro">
+              <h2 class="introduction">Hi, I'm<br />Chidi</h2>
+              <p class="intro-pitch">
+                A frontend web developer living in Lagos Nigeria.<br />
+                Passionate about building and creating great experiences <br />
+                on the web.
+              </p>
+            </div>
+
+            <div id="hero_image">
+              <img
+                class="hero"
+                src="images/myphoto.jpg"
+                alt="A picture of me "
+              />
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" role="region" aria-label="projects">
+          <h2 class="project_header" tabindex="0">My Work</h2>
+          <div class="row">
+            <div class="card">
+              <div class="card__tag-wrapper">
+                <h3 class="tag card__tag" tabindex="0">AirBnb Clone</h3>
+              </div>
+              <div class="card__content-wrapper">
+                <img
+                  class="card__img"
+                  src="images/airbnbClone.jpg"
+                  alt="A pile of citrus fruits, mostly limes and lemons"
+                />
+                <p class="card__title">
+                  React + HTML/CSS + ES6 + Google Maps API
+                </p>
+                <p class="card__description">
+                  A simple clone of the Airbnb website site that allows you to
+                  search for an apartment and display its location on google
+                  maps.
+                </p>
+              </div>
+              <div class="button_cover">
+                <div
+                  class="button1"
+                  aria-label="View Demo of cloned AirBnb website"
+                >
+                  <a
+                    href="https://airbnb-clone-5.firebaseapp.com"
+                    target="_blank"
+                    >DEMO
+                  </a>
+                </div>
+                <div
+                  class="button2"
+                  aria-label="View source code of cloned AirBnb website"
+                >
+                  <a
+                    href="https://github.com/chidexebere/Airbnb-Clone"
+                    target="_blank"
+                  >
+                    CODE</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__tag-wrapper">
+                <h3 class="tag card__tag" tabindex="0">Restaurant App</h3>
+              </div>
+              <div class="card__content-wrapper">
+                <img
+                  class="card__img"
+                  src="images/Resturant_app.jpg"
+                  alt="A pile of citrus fruits, mostly limes and lemons"
+                />
+                <p class="card__title">HTML/CSS + ES6 + Mapbox API</p>
+                <p class="card__description">
+                  A progressive web app that allows you to search for a
+                  Restaurant and display its location on mapbox. And works
+                  offline.
+                </p>
+              </div>
+              <div class="button_cover">
+                <div class="button1" aria-label="View Demo of Restaurant app">
+                  <a
+                    href="https://restaurant-reviews-2.firebaseapp.com"
+                    target="_blank"
+                    >DEMO
+                  </a>
+                </div>
+                <div
+                  class="button2"
+                  aria-label="View source code of Restaurant app"
+                >
+                  <a
+                    href="https://github.com/chidexebere/Restaurant-Reviews-1"
+                    target="_blank"
+                  >
+                    CODE</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__tag-wrapper">
+                <h3 class="tag card__tag" tabindex="0">Currency Converter</h3>
+              </div>
+              <div class="card__content-wrapper">
+                <img
+                  class="card__img"
+                  src="images/Currency_converter.jpg"
+                  alt="A pile of citrus fruits, mostly limes and lemons"
+                />
+                <p class="card__title">
+                  HTML/CSS + ES6 + Free Currency Converter API
+                </p>
+                <p class="card__description">
+                  A progress web app that converts from one currency to another
+                  and works offline.
+                </p>
+              </div>
+              <div class="button_cover">
+                <div
+                  class="button1"
+                  aria-label="View Demo of Currency Converter app"
+                >
+                  <a
+                    href="https://chidexebere.github.io/CurrencyConverter/"
+                    target="_blank"
+                    >DEMO
+                  </a>
+                </div>
+                <div
+                  class="button2"
+                  aria-label="View source code of Currency Converter app"
+                >
+                  <a
+                    href="https://github.com/chidexebere/CurrencyConverter"
+                    target="_blank"
+                  >
+                    CODE</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__tag-wrapper">
+                <h3 class="tag card__tag" tabindex="0">Interractive Resume</h3>
+              </div>
+              <div class="card__content-wrapper">
+                <img
+                  class="card__img"
+                  src="images/resume.jpg"
+                  alt="A pile of citrus fruits, mostly limes and lemons"
+                />
+                <p class="card__title">HTML/CSS + JQUERY</p>
+                <p class="card__description">
+                  An interractive resume that can be updated simply by using
+                  jquery.
+                </p>
+              </div>
+              <div class="button_cover">
+                <div
+                  class="button1"
+                  aria-label="View Demo of my Interractive resume"
+                >
+                  <a
+                    href="https://chidexebere.github.io/Interractive_Resume/"
+                    target="_blank"
+                    >DEMO
+                  </a>
+                </div>
+                <div
+                  class="button2"
+                  aria-label="View source code of my Interractive resume "
+                >
+                  <a
+                    href="https://github.com/chidexebere/Interractive_Resume"
+                    target="_blank"
+                  >
+                    CODE</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__tag-wrapper">
+                <h3 class="tag card__tag" tabindex="0">Tennis Game</h3>
+              </div>
+              <div class="card__content-wrapper">
+                <img
+                  class="card__img"
+                  src="images/tennis_game.jpg"
+                  alt="A pile of citrus fruits, mostly limes and lemons"
+                />
+                <p class="card__title">HTML CANVAS + JavaScript</p>
+                <p class="card__description">
+                  A simple tennis game built using HTML canvas.
+                </p>
+              </div>
+              <div class="button_cover">
+                <div class="button1" aria-label="View Demo of the tennis game">
+                  <a
+                    href="https://chidexebere.github.io/Tennis-Game/"
+                    target="_blank"
+                    >DEMO
+                  </a>
+                </div>
+                <div
+                  class="button2"
+                  aria-label="View source code of the tennis game"
+                >
+                  <a
+                    href="https://github.com/chidexebere/Tennis-Game"
+                    target="_blank"
+                  >
+                    CODE</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__tag-wrapper">
+                <h3 class="tag card__tag" tabindex="0">Firebase Chat App</h3>
+              </div>
+              <div class="card__content-wrapper">
+                <img
+                  class="card__img"
+                  src="images/friendlyChat.jpg"
+                  alt="A man diving into a pool of water with his arms outstretched"
+                />
+                <p class="card__title">HTML/CSS + JavaScript + Firebase</p>
+                <p class="card__description">
+                  A simple chat app buit and hosted with Firebase.
+                </p>
+              </div>
+              <div class="button_cover">
+                <div
+                  class="button1"
+                  aria-label="View Demo of Firebase chat app"
+                >
+                  <a
+                    href="https://friendlychat-ce29e.firebaseapp.com/"
+                    target="_blank"
+                    >DEMO
+                  </a>
+                </div>
+                <div
+                  class="button2"
+                  aria-label="View source code of Firebase chat app"
+                >
+                  <a>CODE</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills" role="region" aria-label="skills">
+          <h2 class="skills_header" tabindex="0">Skills</h2>
+
+          <div class="graph">
+            <div class="bar_description">
+              <div class="bar1">HTML & CSS</div>
+              <div class="bar2">JavaScript</div>
+              <div class="bar3">React</div>
+              <div class="bar4">Node.js</div>
+              <div class="bar4">Git/Github</div>
+            </div>
+            <div class="graph_cont">
+              <div class="bar bar1">90%</div>
+              <div class="bar bar2">70%</div>
+              <div class="bar bar3">50%</div>
+              <div class="bar bar4">50%</div>
+              <div class="bar bar5">60%</div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" role="region" aria-label="contact">
+          <h2 class="contact_header" tabindex="0">Contact Me</h2>
+          <div class="contact-links-container">
+            <div class="contact-links">
+              <a
+                href="https://www.linkedin.com/in/onyegbuchulem-chidiebere-82166351/"
+                target="_blank"
+                title="Linkedin Profile"
+                ><i class="fab fa-linkedin" aria-hidden="true"></i
+              ></a>
+            </div>
+            <div class="contact-links">
+              <a
+                href="https://twitter.com/chidexebere"
+                target="_blank"
+                title="Follow me on Twitter"
+                ><i class="fab fa-twitter" aria-hidden="true"></i
+              ></a>
+            </div>
+            <div class="contact-links">
+              <a
+                href="https://github.com/chidexebere"
+                target="_blank"
+                title="Github Projects"
+                ><i class="fab fa-github" aria-hidden="true"></i
+              ></a>
+            </div>
+            <div class="contact-links">
+              <a
+                href="mailto:conyegbuchulem@gmail.com"
+                target="_blank"
+                title="Email me"
+                ><i class="fas fa-envelope" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
 
-  </header>
-
-
-  <div class="content-wrapper">
-    <main>
-
-      <section id="aboutMe" role="region" aria-labelledby="Intro">
-        <div class="about" tabindex="0">
-          <div id="intro">
-            <h2 class="introduction"> Hi, I'm<br>Chidi</h2>
-            <p class="intro-pitch">
-              A frontend web developer living in Lagos Nigeria.<br>
-              Passionate about building and creating great experiences <br> on the web.
-            </p>
-          </div>
-
-          <div id="hero_image">
-            <img class="hero" src="images/myphoto.jpg" alt="A picture of me ">
-          </div>
-        </div>
-      </section>
-
-
-      <section id="projects" role="region" aria-label="projects">
-        <h2 class="project_header" tabindex="0">My Work</h2>
-        <div class="row">
-
-          <div class="card">
-            <div class="card__tag-wrapper">
-              <h3 class="tag card__tag" tabindex="0">AirBnb Clone</h3>
-            </div>
-            <div class="card__content-wrapper">
-              <img class="card__img" src="images/airbnbClone.jpg" alt="A pile of citrus fruits, mostly limes and lemons">
-              <p class="card__title">React + HTML/CSS + ES6 + Google Maps API</p>
-              <p class="card__description">
-                A simple clone of the Airbnb website site that allows you to search for an apartment and display its
-                location on google maps.
-              </p>
-            </div>
-            <div class="button_cover">
-              <div class="button1" aria-label="View Demo of cloned AirBnb website"><a href="https://airbnb-clone-5.firebaseapp.com"
-                  target="_blank">DEMO </a></div>
-              <div class="button2" aria-label="View source code of cloned AirBnb website"><a href="https://github.com/chidexebere/Airbnb-Clone"
-                  target="_blank"> CODE</a></div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card__tag-wrapper">
-              <h3 class="tag card__tag" tabindex="0">Restaurant App</h3>
-            </div>
-            <div class="card__content-wrapper">
-              <img class="card__img" src="images/Resturant_app.jpg" alt="A pile of citrus fruits, mostly limes and lemons">
-              <p class="card__title"> HTML/CSS + ES6 + Mapbox API</p>
-              <p class="card__description">
-                A progressive web app that allows you to search for a Restaurant and display its location on mapbox.
-                And works offline.
-              </p>
-            </div>
-            <div class="button_cover">
-              <div class="button1" aria-label="View Demo of Restaurant app"><a href="https://restaurant-reviews-2.firebaseapp.com"
-                  target="_blank">DEMO </a></div>
-              <div class="button2" aria-label="View source code of Restaurant app"><a href="https://github.com/chidexebere/Restaurant-Reviews-1"
-                  target="_blank"> CODE</a></div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card__tag-wrapper">
-              <h3 class="tag card__tag" tabindex="0">Currency Converter</h3>
-            </div>
-            <div class="card__content-wrapper">
-              <img class="card__img" src="images/Currency_converter.jpg" alt="A pile of citrus fruits, mostly limes and lemons">
-              <p class="card__title">HTML/CSS + ES6 + Free Currency Converter API</p>
-              <p class="card__description">
-                A progress web app that converts from one currency to another and works offline.
-              </p>
-            </div>
-            <div class="button_cover">
-              <div class="button1" aria-label="View Demo of Currency Converter app"><a href="https://chidexebere.github.io/CurrencyConverter/"
-                  target="_blank">DEMO </a></div>
-              <div class="button2" aria-label="View source code of Currency Converter app"><a href="https://github.com/chidexebere/CurrencyConverter"
-                  target="_blank"> CODE</a></div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card__tag-wrapper">
-              <h3 class="tag card__tag" tabindex="0">Interractive Resume</h3>
-            </div>
-            <div class="card__content-wrapper">
-              <img class="card__img" src="images/resume.jpg" alt="A pile of citrus fruits, mostly limes and lemons">
-              <p class="card__title">HTML/CSS + JQUERY</p>
-              <p class="card__description">
-                An interractive resume that can be updated simply by using jquery.
-              </p>
-            </div>
-            <div class="button_cover">
-              <div class="button1" aria-label="View Demo of my Interractive resume"><a href="https://chidexebere.github.io/Interractive_Resume/"
-                  target="_blank">DEMO </a></div>
-              <div class="button2" aria-label="View source code of my Interractive resume "><a href="https://github.com/chidexebere/Interractive_Resume"
-                  target="_blank"> CODE</a></div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card__tag-wrapper">
-              <h3 class="tag card__tag" tabindex="0">Tennis Game</h3>
-            </div>
-            <div class="card__content-wrapper">
-              <img class="card__img" src="images/tennis_game.jpg" alt="A pile of citrus fruits, mostly limes and lemons">
-              <p class="card__title">HTML CANVAS + JavaScript</p>
-              <p class="card__description">
-                A simple tennis game built using HTML canvas.
-              </p>
-            </div>
-            <div class="button_cover">
-              <div class="button1" aria-label="View Demo of the tennis game"><a href="https://chidexebere.github.io/Tennis-Game/"
-                  target="_blank">DEMO </a></div>
-              <div class="button2" aria-label="View source code of the tennis game"><a href="https://github.com/chidexebere/Tennis-Game"
-                  target="_blank"> CODE</a></div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card__tag-wrapper">
-              <h3 class="tag card__tag" tabindex="0">Firebase Chat App</h3>
-            </div>
-            <div class="card__content-wrapper">
-              <img class="card__img" src="images/friendlyChat.jpg" alt="A man diving into a pool of water with his arms outstretched">
-              <p class="card__title"> HTML/CSS + JavaScript + Firebase </p>
-              <p class="card__description">
-                A simple chat app buit and hosted with Firebase.
-              </p>
-            </div>
-            <div class="button_cover">
-              <div class="button1" aria-label="View Demo of Firebase chat app"><a href="https://friendlychat-ce29e.firebaseapp.com/"
-                  target="_blank">DEMO </a></div>
-              <div class="button2" aria-label="View source code of Firebase chat app"><a>CODE</a></div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-
-      <section id="skills" role="region" aria-label="skills">
-        <h2 class="skills_header" tabindex="0">Skills</h2>
-
-        <div class="graph">
-          <div class="bar_description">
-            <div class="bar1">HTML & CSS</div>
-            <div class="bar2">JavaScript</div>
-            <div class="bar3">React</div>
-            <div class="bar4">Python</div>
-            <div class="bar4">Git/Github</div>
-          </div>
-          <div class="graph_cont">
-            <div class="bar bar1">90%</div>
-            <div class="bar bar2">70%</div>
-            <div class="bar bar3">50%</div>
-            <div class="bar bar4">50%</div>
-            <div class="bar bar5">60%</div>
-          </div>
-        </div>
-      </section>
-
-
-      <section id="contact" role="region" aria-label="contact">
-        <h2 class="contact_header" tabindex="0">Contact Me</h2>
-        <div class="contact-links-container">
-          <div class="contact-links"><a href="https://www.linkedin.com/in/onyegbuchulem-chidiebere-82166351/" target="_blank"
-              title="Linkedin Profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a></div>
-          <div class="contact-links"><a href="https://twitter.com/chidexebere" target="_blank" title="Follow me on Twitter"><i
-                class="fab fa-twitter" aria-hidden="true"></i></a></div>
-          <div class="contact-links"><a href="https://github.com/chidexebere" target="_blank" title="Github Projects"><i
-                class="fab fa-github" aria-hidden="true"></i></a></div>
-          <div class="contact-links"><a href="mailto:conyegbuchulem@gmail.com" target="_blank" title="Email me"><i
-                class="fas fa-envelope" aria-hidden="true"></i></a></div>
-        </div>
-      </section>
-
-    </main>
-  </div>
-
-  <footer role="contentinfo">
-    <p> © 2018 Chidiebere Onyegbuchulem </p>
-  </footer>
-
-
-</body>
-<script src="js/main.js"></script>
-
+    <footer role="contentinfo"><p>© 2018 Chidiebere Onyegbuchulem</p></footer>
+  </body>
+  <script src="js/main.js"></script>
 </html>
