@@ -7,14 +7,16 @@
   font-size: 1.6rem;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 h1,
@@ -26,14 +28,14 @@ h3 {
 h1,
 h2,
 h3 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: lighter;
 }
 
 body,
 span,
 p {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.6rem;
 }
 
@@ -67,7 +69,7 @@ header {
       -ms-flex-direction: row;
           flex-direction: row;
   height: 80px;
-  background: #FFF;
+  background: #fff;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
@@ -86,7 +88,7 @@ header {
 /* Logo */
 .logo {
   color: #000;
-  font-family: 'Merienda One', cursive;
+  font-family: "Merienda One", cursive;
   font-size: 2.5rem;
 }
 
@@ -114,7 +116,7 @@ header {
 
 .mobile_nav h1 > span {
   text-transform: none;
-  opacity: .5;
+  opacity: 0.5;
   font-weight: 300;
   font-size: 12px;
 }
@@ -137,8 +139,8 @@ header {
   left: 0;
   display: block;
   background: #020304;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .mobile_nav input + label span:first-child {
@@ -178,10 +180,10 @@ header {
   width: 100%;
   height: 80px;
   z-index: 3;
-  -webkit-transition: .5s;
-  transition: .5s;
-  -webkit-transition-delay: .5s;
-          transition-delay: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
   overflow: hidden;
 }
 
@@ -195,8 +197,8 @@ header {
 
 .mobile_nav input ~ nav > ul > li {
   opacity: 0;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
   display: block;
@@ -219,8 +221,8 @@ header {
 
 .mobile_nav input:checked ~ nav > ul > li {
   opacity: 1;
-  -webkit-transition-delay: .5s;
-          transition-delay: .5s;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
 }
 
 /* --------------- nav END --------------- */
@@ -247,14 +249,14 @@ section {
 .project_header,
 .skills_header,
 .contact_header {
-  font-family: 'Merienda One', cursive;
+  font-family: "Merienda One", cursive;
   letter-spacing: 0.5em;
   padding: 20px 10px;
   text-align: center;
   -webkit-box-shadow: inset 0 -0.1em #888, inset 0 -0.175em #888;
           box-shadow: inset 0 -0.1em #888, inset 0 -0.175em #888;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(66%, transparent), color-stop(34%, #EEFAFD));
-  background-image: linear-gradient(transparent 66%, #EEFAFD 34%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(66%, transparent), color-stop(34%, #eefafd));
+  background-image: linear-gradient(transparent 66%, #eefafd 34%);
 }
 
 /* About Me */
@@ -332,7 +334,7 @@ section {
   margin: 3rem 0 4.3rem;
   -webkit-box-shadow: 0 0 3rem rgba(0, 0, 0, 0.15);
           box-shadow: 0 0 3rem rgba(0, 0, 0, 0.15);
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .card__tag-wrapper {
@@ -346,7 +348,7 @@ section {
 .card__tag {
   display: inline-block;
   padding: 1rem 3.2rem;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .card__img {
@@ -462,7 +464,7 @@ section {
 }
 
 .bar::before {
-  content: '';
+  content: "";
   width: 100%;
   position: absolute;
   left: 0;
@@ -473,7 +475,7 @@ section {
 }
 
 .bar::after {
-  content: '';
+  content: "";
   background: #2ecc71;
   height: 3rem;
   -webkit-transition: 0.7s;
@@ -543,14 +545,17 @@ section {
 }
 
 /* Footer*/
-footer {
+.footer {
   position: relative;
   top: 8rem;
   height: 5rem;
   background: #000;
   text-align: center;
   padding: 1rem;
-  color: #FFF;
+}
+
+.footer .footer-content {
+  color: #fff;
 }
 
 /* Breakpoints */
